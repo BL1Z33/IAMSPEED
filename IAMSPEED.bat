@@ -15,6 +15,8 @@ echo %COPY% >> onefile.txt
 goto one-a
 
 :spam
+mkdir spam
+cd spam
 set /p COPY="Type what you want to spam copy: "
 goto a
 :a
