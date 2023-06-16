@@ -1,7 +1,8 @@
 @echo off
 mkdir IAMSPEED
 cd IAMSPEED
-set /p MODE="If you'd like one file mode, type 'one'. If you don't, type 'spam'."
+echo If you'd like one file mode, type 'one'. If you don't, type 'spam'.
+set /p MODE=""
 goto %MODE%
 
 :one
@@ -10,7 +11,7 @@ cd onefile
 set /p COPY="Type what you want to copy: "
 goto one-a
 :one-a
-echo %COPY% >> %RANDOM%.txt
+echo %COPY% >> onefile.txt
 goto one-a
 
 :spam
