@@ -1,4 +1,3 @@
-# IAMSPEED
 ## How to use
 • Download IAMSPEED.bat
 
