@@ -1,10 +1,1 @@
-## How to use
-• Download IAMSPEED.bat
-
-• Open IAMSPEED
-
-• Select your mode (one file or spam)
-
-• Select what you want to copy
-
-• Have fun! (Note: this only works on Windows)
+iamspeed will now be updated in the [katools](https://github.com/BL1Z33/katools) repository.
